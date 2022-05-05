@@ -31,6 +31,11 @@ const NavBar = ({ showNav }) => {
           title="我的"
           icon={<CustomIcon type="wode" />}
         />
+      <TabBar.Item
+        itemKey="/practice"
+        title="练习"
+        icon={<CustomIcon type="wode" />}
+      />
       </TabBar>
   );
 };

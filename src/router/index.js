@@ -7,6 +7,7 @@ import Detail from '@/container/Detail'
 import Account from '@/container/Account'
 import About from '@/container/About'
 import UserInfo from '@/container/UserInfo'
+import Practice from '@/container/Practice'
 
 const routes = [
   {
@@ -40,6 +41,10 @@ const routes = [
   {
     path: "/userinfo",
     component: UserInfo
+  },
+  {
+    path: "/practice",
+    component: Practice
   },
 ];
 

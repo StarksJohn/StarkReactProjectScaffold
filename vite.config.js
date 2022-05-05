@@ -26,6 +26,8 @@ export default defineConfig({
       less: {
         // 支持内联 JavaScript
         javascriptEnabled: true,
+        // https://blog.csdn.net/yun_master/article/details/120050054 全局引用.less 文件
+        additionalData: `@import "${path.resolve(__dirname, './node_modules/less-tool/mixin.module.less')}";`
       }
     }
   },
